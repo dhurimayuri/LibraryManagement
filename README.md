@@ -18,7 +18,12 @@ Follow these steps to set up the project on your local machine.
    git clone https://github.com/dhurimayuri/LibraryManagement.git
    cd LibraryManagement
    
-2. **Create and activate a virtual environment:**
+   Navigate to the project directory:
+    ```bash
+    cd repository
+    ```
+   
+3. **Create and activate a virtual environment:**
   **For Windows:**
   python -m venv venv
   venv\Scripts\activate
