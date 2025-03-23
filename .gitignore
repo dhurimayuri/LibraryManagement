@@ -1,0 +1,52 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore virtual environment
+venv/
+env/
+.venv/
+
+# Ignore environment variables and credentials
+.env
+*.env
+
+# Ignore database files (for SQLite, but useful to keep)
+db.sqlite3
+*.db
+
+# Ignore Django migrations compiled files
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__/
+
+# Ignore Django cache files
+staticfiles/
+media/
+*.bak
+
+# Ignore MySQL dump files (avoid pushing large database dumps)
+*.sql
+*.sql.gz
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+logs/
+debug.log
+
+# Ignore compiled Cython files
+*.c
+*.so
