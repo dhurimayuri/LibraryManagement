@@ -22,7 +22,7 @@ Follow these steps to set up the project on your local machine.
    cd LibraryManagement
     ```
    
-3. **Create and activate a virtual environment:**
+2. **Create and activate a virtual environment:**
   **For Windows:**
   ``` 
   python -m venv venv
@@ -40,7 +40,7 @@ Install the required Python packages using pip:
 ```
 pip install -r requirements.txt
 ```
-5. **Configure MySQL Database:**
+4. **Configure MySQL Database:**
 
 Update the DATABASES setting in library_management/settings.py to match your MySQL configuration:
 ```
@@ -76,7 +76,7 @@ Start the development server:
 ```
 python manage.py runserver
 ```
-8. **API ENDPOINTS**
+ 8. **API ENDPOINTS**
   1. Admin User Signup:
 ```
    POST /api/admin/signup/
