@@ -23,6 +23,7 @@ Follow these steps to set up the project on your local machine.
     ```
    
 2. **Create and activate a virtual environment:**
+   
   **For Windows:**
   ``` 
   python -m venv venv
@@ -36,11 +37,28 @@ Follow these steps to set up the project on your local machine.
 ```
 
 3. **Install dependencies:**
+   
 Install the required Python packages using pip:
 ```
 pip install -r requirements.txt
 ```
 4. **Configure MySQL Database:**
+   
+**Start MySQL Service**
+
+**For Linux/MacOS:**
+
+Open your terminal.
+Run the following command to start the MySQL service:
+```
+sudo service mysql start
+```
+**For Windows:**
+Open Services by typing services.msc in the Run window (Win + R).
+
+Look for MySQL in the list of services.
+
+Right-click on it and select Start.
 
 Update the DATABASES setting in library_management/settings.py to match your MySQL configuration:
 ```
@@ -77,7 +95,8 @@ Start the development server:
 python manage.py runserver
 ```
  8. **API ENDPOINTS**
-  1. Admin User Signup:
+    
+ 1.Admin User Signup:
 ```
    POST /api/admin/signup/
 ```
