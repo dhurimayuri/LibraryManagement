@@ -24,13 +24,18 @@ Follow these steps to set up the project on your local machine.
    
 3. **Create and activate a virtual environment:**
   **For Windows:**
+   ```
   python -m venv venv
+
   venv\Scripts\activate
+  ```
 
   **For macOS/Linux:**
+```
   python3 -m venv venv
+  
   source venv/bin/activate
-
+```
 3. **Install dependencies:**
 Install the required Python packages using pip:
 ```
