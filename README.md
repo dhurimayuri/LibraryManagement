@@ -15,12 +15,9 @@ Follow these steps to set up the project on your local machine.
 ### Installation Steps
 
 1. **Clone the repository:**
+   ```
    git clone https://github.com/dhurimayuri/LibraryManagement.git
    cd LibraryManagement
-   
-   Navigate to the project directory:
-    ```bash
-    cd repository
     ```
    
 3. **Create and activate a virtual environment:**
