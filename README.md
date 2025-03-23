@@ -54,6 +54,7 @@ Run the following command to start the MySQL service:
 sudo service mysql start
 ```
 **For Windows:**
+
 Open Services by typing services.msc in the Run window (Win + R).
 
 Look for MySQL in the list of services.
@@ -74,6 +75,12 @@ DATABASES = {
 }
 ```
 Ensure your MySQL server is running.
+
+**Create database using MySQL:**
+
+```
+CREATE DATABASE databasename;
+```
 
 5. **Apply database migrations:**
 
