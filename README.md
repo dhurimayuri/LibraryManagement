@@ -119,6 +119,11 @@ python manage.py runserver
 ```
   Response: A list of all books.
 
+  **View all books from student view**
+  ```
+http://127.0.0.1:8000/api/home/
+```
+
   5.Book Update (Admin only):
 ```
   PUT /api/admin/book/update/{book_id}/
@@ -136,6 +141,7 @@ python manage.py runserver
 ```
   DELETE /api/admin/book/delete/{book_id}/
 ```
+
 
 
 
